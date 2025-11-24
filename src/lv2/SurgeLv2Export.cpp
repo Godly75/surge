@@ -140,7 +140,7 @@ void lv2_generate_ttl(const char* baseName)
 
       // TODO LV2: implement an adequate version number scheme. For now, make it the last two (so 1.6.2 gets 6 2)
       osDsp << "    lv2:minorVersion " << SUB_VERSION_INT << " ;\n"
-         "    lv2:microVersion " << RELEASE_NUMBER_STR << " .\n";
+         "    lv2:microVersion " << RELEASE_NUMBER_INT << " .\n";
    }
 
    {
