@@ -10,6 +10,7 @@
 #define SUB_VERSION_INT @SURGE_SUB_VERSION@
 
 #define RELEASE_NUMBER_STR "@SURGE_RELEASE_NUMBER@"
+#define RELEASE_NUMBER_INT @SURGE_RELEASE_NUMBER@
 #define RELEASE_STR "@SURGE_RELEASE_VERSION@"
 #define BUILD_NUMBER_STR "@SURGE_BUILD_HASH@" // Build number to be sure that each result could identified.
 
